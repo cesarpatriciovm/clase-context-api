@@ -10,7 +10,7 @@ function UserProvider({ children }) {
     address: "Calle Falsa 123",
   }
   return (
-    <UserContext.Provider value={{ name: "Mi nombre es John Doe", user }}>
+    <UserContext.Provider value={{ name, user }}>
       {children}
     </UserContext.Provider>
   )
